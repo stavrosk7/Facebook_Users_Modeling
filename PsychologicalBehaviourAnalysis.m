@@ -91,7 +91,7 @@ perso11=sum(sSocial_factors)/26;
 perso12=sum(sAltruism)/26;
 perso13=sum(sSocial_interdependent_self_construal)/26;
 
-%------Plot Personality Traits of Facebook User--------
+%------Plot Personality Traits of Facebook User---------
 User = [perso1,perso2,perso3,perso4,perso5,perso6,perso7,perso8,perso9,perso10,perso11,perso12,perso13];
 figure
 barh(User)
